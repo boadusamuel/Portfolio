@@ -3,20 +3,23 @@
 
   let steps = [
     {
-      name: "Smoljames Store",
+      name: "Dinpa",
       icon: "fa-solid fa-cart-shopping",
+      href: "https://www.dinpa.co/",
       description:
-        "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
+        "Dinpa is an eccomerce store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
     },
     {
-      name: "Utlimate Todos",
+      name: "Zuberi Core",
       icon: "fa-solid fa-list-check",
+      href: "https://core.zuberipay.com/",
       description:
         "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
     },
     {
-      name: "Pokédex",
-      icon: "fa-solid fa-diagram-project",
+      name: "GML",
+      icon: "fa-solid fa-music",
+      href: "https://play.google.com/store/apps/details?id=tech.rootsdigital.musiga&hl=en&gl=US",
       description:
         "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
     },
@@ -24,15 +27,14 @@
 
   let benefits = [
     {
-      metric: "10x",
       name: "a self taught developer",
       description:
-        "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
+        "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS, PHP and evolving my knowledge base to include JavaScript frameworks, Laravel PHP framework, cloud services and much much more.",
     },
     {
-      name: "a product design & UX finatic",
+      name: "transform designs to reality",
       description:
-        "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+        "I am a visionary creator who transforms designs into tangible realities with precision and innovation. Able to transform figma designs into pixel perfect websites and I love the challenge of helping users have amazing online experiences.",
     },
     {
       name: "an excellent communicator",
@@ -62,7 +64,7 @@
       </p>
 
       <a href="#contact"
-        class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 z-10"
+        class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 z-[9]"
       >
         <div
           class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
@@ -90,33 +92,30 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
         <p>
-          Smoljames Store is a a merchanising store created with <strong
+          Dinpa is an ecommerce store with the backend created using <strong
             class="text-violet-400"
-            >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
-          > Commerce.js is a product CMS and Stripe is used for all transaction handling.
+            >Laravel, Livewire, MySQL!</strong
+          > Dinpa allows merchants to sell their products on the platform.
         </p>
       </Step>
       <Step step={steps[1]}>
         <p>
-          Ultimate Todos is a Full Stack <strong class="text-violet-400"
-            >Next.js</strong
-          >,
-          <strong class="text-violet-400">Node.js + Express.js</strong>
-          & <strong class="text-violet-400">Firebase</strong> CRUD application that
-          allows a user to login, manage a tidy and efficacious todo list, and persist
-          this information across devices.
+          Zuberi Core is a Payroll Management System built with <strong class="text-violet-400"
+            >Nuxt.js</strong
+          > for the frontend
+          & <strong class="text-violet-400">Laravel</strong> for the backend. The system
+          allows management of employees
         </p>
       </Step>
       <Step step={steps[2]}>
         <p>
-          The Pokédex is a <strong class="text-violet-400"
-            >SvelteKit & TailwindCSS</strong
+          Ghana Music Live (GML) is a <strong class="text-violet-400"
+            >Node JS</strong
           >
-          web application, hosted on
-          <strong class="text-violet-400">Netlify</strong>, that consumes and
-          caches the
-          <strong class="text-violet-400">Pokémon API</strong>
-          to display all Pokémon information. Gotta catch them all!
+          backend application, hosted on
+          <strong class="text-violet-400">AWS</strong>, allowing the consumption of API by the
+          <strong class="text-violet-400">Mobile App</strong>
+          to display all music, artist etc.. information.!
         </p>
       </Step>
     </div>
@@ -149,7 +148,9 @@
             <h3 class="text-2xl sm:text-3xl md:text-5xl">
               {benefit.name}
             </h3>
-            <p>{benefit.description}</p>
+            <p>{benefit.description}
+            </p>
+           
           </div>
         </div>
       {/each}
@@ -216,9 +217,21 @@
         </tbody>
       </table>
     </div>
-    <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
+    <div class="mx-auto mt-12 italic sm:hidden opacity-50">
       <p>Scroll to see more &rarr;</p>
     </div>
-    <p class="mx-auto">So why not invest?</p>
+    <p class="mx-auto">So why not choose me?</p>
+  </section>
+
+  <section class="flex flex-col gap-4">
+    <h3 class="text-center font-semibold ">
+      <span class="text-2xl sm:text-3xl font-semibold text-center poppins">Credit</span>
+    </h3>
+   <div class="mx-auto">
+    <ol class="">
+      <li class="mb-3"><a href="https://www.linkedin.com/in/solomon-appier-sign/" target="_blank">Solomon Appiah-Sign <span class="text-violet-400">(My Mentor)</span></a> </li>
+      <li><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp  <span class="text-violet-400">(Online Resource)</span></a> </li>
+    </ol>
+   </div>
   </section>
 </main>

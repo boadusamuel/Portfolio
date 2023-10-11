@@ -7,7 +7,7 @@
 </script>
 
 <header
-  class={"sticky z-[10] top-0 duration-200 flex items-center justify-between border border-solid " +
+  class={"sticky z-[10] top-0 duration-200 flex items-center justify-between border border-solid mx-4 " +
     (y > 0
       ? "py-4 bg-slate-950 border-violet-500"
       : "py-6 bg-transparent border-transparent")}
