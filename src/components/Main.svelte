@@ -223,15 +223,16 @@
     <p class="mx-auto">So why not choose me?</p>
   </section>
 
-  <section class="flex flex-col gap-4">
+  <section class="pb-20 flex flex-col sm:gap-15 md:gap-24 relative gap-4">
     <h3 class="text-center font-semibold ">
       <span class="text-2xl sm:text-3xl font-semibold text-center poppins">Credit</span>
     </h3>
    <div class="mx-auto">
-    <ol class="">
-      <li class="mb-3"><a href="https://www.linkedin.com/in/solomon-appier-sign/" target="_blank">Solomon Appiah-Sign <span class="text-violet-400">(My Mentor)</span></a> </li>
-      <li><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp  <span class="text-violet-400">(Online Resource)</span></a> </li>
-    </ol>
+    <div class="flex justify-between gap-4 flex-col">
+      <p class="mb-5 sm:mb-3"><a href="https://www.linkedin.com/in/solomon-appier-sign/" target="_blank">Solomon Appiah-Sign <span class="text-violet-400">(My Mentor)</span></a> </p>
+      
+      <p><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp  <span class="text-violet-400">(Online Resource)</span></a> </p>
+    </div>
    </div>
   </section>
 </main>
