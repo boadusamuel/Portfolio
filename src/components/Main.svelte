@@ -229,7 +229,7 @@
     </h3>
    <div class="mx-auto">
     <div class="flex justify-between gap-4 flex-col">
-      <p class="mb-5 sm:mb-3"><a href="https://www.linkedin.com/in/solomon-appier-sign/" target="_blank">Solomon Appiah-Sign <span class="text-violet-400">(My Mentor)</span></a> </p>
+      <p class="mb-5 sm:mb-3"><a href="https://www.linkedin.com/in/solomon-appier-sign/" target="_blank">Solomon APPIER-SIGN <span class="text-violet-400">(My Mentor)</span></a> </p>
       
       <p><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp  <span class="text-violet-400">(Online Resource)</span></a> </p>
     </div>
