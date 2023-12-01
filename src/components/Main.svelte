@@ -27,9 +27,9 @@
 
   let benefits = [
     {
-      name: "a self taught developer",
+      name: "versatile developer",
       description:
-        "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS, PHP and evolving my knowledge base to include JavaScript frameworks, Laravel PHP framework, cloud services and much much more.",
+        "Versatile Developer with a comprehensive skill set in software development. Proficient in JavaScript, HTML, CSS, PHP, and experienced with advanced frameworks, including Laravel. Skilled in crafting innovative online solutions with a passion for creativity and problem-solving. Continuously evolving expertise to meet the dynamic demands of the industry, I bring a self-driven commitment to excellence in every project.",
     },
     {
       name: "transform designs to reality",
